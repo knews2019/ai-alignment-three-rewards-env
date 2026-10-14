@@ -1,0 +1,22 @@
+# Never commit these
+episodes/
+hidden/
+**/hidden_tests/
+eval/heldout/
+eval/private_honeypots/
+tasks.jsonl
+*.env
+!images/honeypots/env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.egg-info/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

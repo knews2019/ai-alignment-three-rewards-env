@@ -1,0 +1,25 @@
+[project]
+name = "ai-alignment-three-rewards-env"
+version = "0.1.0"
+description = "Environment, verifiers and pre-registration for testing truthfulness, scope and abstention rewards in agentic coding RL under rising task pressure"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Szabolcs Kuki" }]
+dependencies = [
+    "jsonschema>=4.0",
+]
+
+[project.optional-dependencies]
+verifiers = ["verifiers>=0.2"]
+dev = ["pytest>=8"]
+
+[project.urls]
+Repository = "https://github.com/knews2019/ai-alignment-three-rewards-env"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["env/**", "rewards/**", "tasks/**", "adapters/**", "scripts/**"]

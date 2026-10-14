@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this environment or protocol, please cite it as below."
+title: "Three-rewards environment: truthfulness, scope and abstention rewards for agentic coding RL under rising task pressure"
+authors:
+  - family-names: Kuki
+    given-names: Szabolcs
+type: software
+repository-code: "https://github.com/knews2019/ai-alignment-three-rewards-env"
+license: Apache-2.0
+date-released: "2026-10-14"
+version: "0.1.0"
+keywords:
+  - reinforcement learning
+  - agentic coding
+  - reward hacking
+  - abstention
+  - alignment
